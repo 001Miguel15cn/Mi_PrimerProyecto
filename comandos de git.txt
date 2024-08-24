@@ -1,0 +1,12 @@
+git init
+git remote add origin link_del_proyecto_en_formato_ssh
+ejemplo:
+git remote add origin git@github.com:001Miguel15cn/Mi_PrimerProyecto.git
+git remote -v #sirve para ver que proyecto esta en remoto
+git config --global user.name nombre_de_usuario #configurar el git con el nombre de usario
+git config --global user.email "correo"
+git fetch #muestra las ramas
+git switch nombre_rama #permite conectarse a una rama de git
+git switch main
+git status # permite ver los archivos modificados
+git add nombre_archivo_para_añadir
